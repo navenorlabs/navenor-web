@@ -33,10 +33,8 @@ export function Contact() {
             className="lg:col-span-3 glass-panel p-8 md:p-10"
           >
             <form
-              onSubmit={(e) => {
-                e.preventDefault();
-                alert("Form submitted (no backend connected yet).");
-              }}
+              action="https://formsubmit.co/navenorlabs@gmail.com"
+              method="POST"
               className="space-y-6"
             >
               <div className="grid gap-6 sm:grid-cols-2">

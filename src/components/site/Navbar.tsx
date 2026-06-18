@@ -27,7 +27,6 @@ export function Navbar() {
 
   const nav = [
     { label: t("nav.services", "Services"), href: "/#services" },
-    { label: t("nav.portfolio", "Portfolio"), href: "/#portfolio" },
     { label: t("nav.pricing", "Pricing"), href: "/#pricing" },
     { label: t("nav.method", "Method"), href: "/#method" },
     { label: t("contact.label", "Contact"), href: "/#contact" },
