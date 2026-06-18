@@ -33,10 +33,11 @@ export function Contact() {
             className="lg:col-span-3 glass-panel p-8 md:p-10"
           >
             <form
-              action="https://formsubmit.co/navenorlabs@gmail.com"
+              action="https://formsubmit.co/ba9d96080fa74196d9a69d888deca4cb"
               method="POST"
               className="space-y-6"
             >
+              <input type="hidden" name="_next" value="https://navenor.vercel.app/" />
               <div className="grid gap-6 sm:grid-cols-2">
                 <div>
                   <label
